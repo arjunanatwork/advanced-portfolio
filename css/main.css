@@ -1,0 +1,112 @@
+html {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button {
+	font-family: "Montserrat", "Quicksand", sans-serif;
+    letter-spacing: 0.15rem;
+    text-transform: uppercase;
+    font-size: 0.875rem !important;
+    line-height: 1.5;
+    padding: 1.5em 2em;
+    text-shadow: none;
+    user-select: none;
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+.button:hover {
+	color: #ff470f;
+}
+
+a.icon {
+    color: #fff;
+    margin: 0rem 1rem;
+}
+
+a.icon:hover {
+    color: #ff470f;
+}
+
+.hr{
+    background-color: #dbdbdb;
+    border: none;
+    content: "";
+    height: 1px;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    width: 100%;
+}
+
+/* Specific */
+.wallpaper {
+    background-color: #bdc3c7;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    position: relative;
+}
+
+.wallpaper:before {
+    background: linear-gradient(to right, rgba(44, 62, 80, 0.75) 55%,hsla(204, 8%, 76%, 0.95));
+    height: 100%;
+    left: 0;
+    right: 0;
+    position: absolute;
+    content: "";
+    z-index: 0;
+}
+
+.welcome-msg,
+.abt-section,
+.skill-section {
+    color: #ff470f;
+    font-weight: bold;
+    font-family: "Quicksand", sans-serif;
+}
+
+.name {
+    font-family: "Quicksand", sans-serif;
+    margin-bottom: 0.6rem !important;
+}
+
+.job {
+    font-family: "Montserrat", "Quicksand", sans-serif;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+    color: #ffe479;
+}
+
+.learn-more {
+	margin-top: 1.0rem;
+}
+
+.learn-more .button {
+    color: #ff470f;
+}
+
+.social {
+    margin-top: 2rem;
+}
+
+/** About Me */
+
+.abt-description,
+.skill-description {
+    font-family: "Montserrat", "Quicksand", sans-serif;
+    font-size: 1.15rem;
+}
+
+
+
+.resume-btn .button {
+    color: #fff;
+    background-color: #ff470f;
+}
