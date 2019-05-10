@@ -96,6 +96,7 @@ a.icon:hover {
 
 .social {
     margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 /** About Me & Skill */
@@ -106,7 +107,9 @@ a.icon:hover {
     font-size: 1.15rem;
 }
 
-.resume-btn .button {
+.resume-btn .button,
+.mail-btn .button {
+    margin-top: 1rem;
     color: #fff;
     background-color: #ff470f;
 }
@@ -134,4 +137,25 @@ a.icon:hover {
 .timeline-checkpoint {
     background-color: chocolate !important;
     color: #fff !important;
+}
+
+/** Mail **/
+
+.mail-form {
+    max-width: 640px;
+    margin: 40px auto;
+}
+
+
+/** Footer **/
+.button.is-social.linkedin-in {
+    margin: 1rem 1rem;
+    background-color: #0077b5;
+    color:#fff;
+}
+
+.button.is-social.github-in {
+    margin: 1rem 1rem;
+    background-color: #333;
+    color:#fff;
 }
