@@ -66,7 +66,9 @@ a.icon:hover {
 
 .welcome-msg,
 .abt-section,
-.skill-section {
+.skill-section,
+.we-section,
+.project-section {
     color: #ff470f;
     font-weight: bold;
     font-family: "Quicksand", sans-serif;
@@ -96,7 +98,7 @@ a.icon:hover {
     margin-top: 2rem;
 }
 
-/** About Me */
+/** About Me & Skill */
 
 .abt-description,
 .skill-description {
@@ -104,9 +106,32 @@ a.icon:hover {
     font-size: 1.15rem;
 }
 
-
-
 .resume-btn .button {
     color: #fff;
     background-color: #ff470f;
+}
+
+.skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill-name {
+     font-family: "Montserrat", "Quicksand", sans-serif;
+}
+
+.footer-items{
+    padding: .75rem;
+}
+
+/** Timeline */
+.timeline-is-primary {
+   background-color: #ff470f !important;
+   color: #fff !important;
+}
+
+.timeline-checkpoint {
+    background-color: chocolate !important;
+    color: #fff !important;
 }
