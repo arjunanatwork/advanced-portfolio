@@ -13,11 +13,14 @@
     <link rel="stylesheet" type="text/css" href="css/bulma-timeline.min.css">
     <link rel="stylesheet" href="css/aos.css" />
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-
 </head>
 
 <body>
+
+       <a id="scroll-top-btn">
+          <i class="fas fa-arrow-up"></i>
+       </a>
+
     <!-- Hero Section -->
     <header class="wallpaper" style="background-image: url(images/mac.jpg)" data-aos="fade-in" data-aos-delay="1000" data-aos-duration="1000" data-aos-easing="ease-in-out">
         <section class="hero is-fullheight">
@@ -27,19 +30,22 @@
                     <h1 class="title is-1 has-text-white name">I'm Arjunan World</h1>
                     <p class="job">Full Stack Developer</p>
                     <div class="learn-more" data-aos="fade-up" data-aos-delay="1200" data-aos-duration="1000" data-aos-easing="ease-in-out">
-                        <a class="button is-rounded is-medium">Learn More</a>
+                        <a class="button is-rounded is-medium" id="learn-more">Learn More</a>
                     </div>
                     <div class="social">
-                        <a class="icon" data-aos="fade-in" data-aos-delay="1400" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                        <a class="icon" href="https://twitter.com/arjunan1991" rel="noopener noreferrer" target="_blank" data-aos="fade-in" data-aos-delay="1400" data-aos-duration="1000"
+                           data-aos-easing="ease-in-out">
                             <i class="fab is-size-2	fa-twitter"></i>
                         </a>
-                        <a class="icon" data-aos="fade-in" data-aos-delay="1600" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                        <a class="icon" href="https://github.com/arjunanatwork" rel="noopener noreferrer" target="_blank" data-aos="fade-in" data-aos-delay="1600" data-aos-duration="1000"
+                           data-aos-easing="ease-in-out">
                             <i class="fab is-size-2	fa-github"></i>
                         </a>
-                        <a class="icon" data-aos="fade-in" data-aos-delay="1800" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                        <a class="icon" href="https://linkedin.com/in/arjunan-ravi" rel="noopener noreferrer" target="_blank" data-aos="fade-in" data-aos-delay="1800" data-aos-duration="1000"
+                           data-aos-easing="ease-in-out">
                             <i class="fab is-size-2	fa-linkedin"></i>
                         </a>
-                        <a class="icon" data-aos="fade-in" data-aos-delay="2000" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                        <a class="icon" href="mailto:arjunan1991@gmail.com" data-aos="fade-in" data-aos-delay="2000" data-aos-duration="1000" data-aos-easing="ease-in-out">
                             <i class="far is-size-2 fa-envelope"></i>
                         </a>
                     </div>
@@ -49,17 +55,17 @@
     </header>
 
     <!-- About -->
-    <section class="section">
+    <section class="section" id="abt-section">
         <div class="container">
             <h1 class="title has-text-centered abt-section">About Me_</h1>
-            <div class="content" data-aos="fade-in" data-aos-duration="1000" data-aos-easing="ease-in-out">
+            <div class="content" data-aos="fade-in" data-aos-duration="500" data-aos-easing="ease-in-out">
                 <p class="abt-description">
                     IT Professional with 6 years of experience in Full Stack Development with extensive knowlodge in analysis,design,implementation and support in large scale high performance applications.
                     Technically ambitious and always looking for new challenges.Highly Adaptable to change, always willing to explore, experiment newer domains & technologies.
                     I have few other passions: Tavelling the world, Music and spendign time with family/friends.
                 </p>
                 <div class="resume-btn has-text-centered">
-                    <a class="button is-rounded is-medium">Download CV</a>
+                    <a href="https://1drv.ms/b/s!Arinc6YrRQGI6WI46vED3duOz8yl" target="_blank" class="button is-rounded is-medium">Download CV</a>
                 </div>
             </div>
         </div>
@@ -71,7 +77,7 @@
     <section class="section">
         <div class="container">
             <h1 class="title has-text-centered skill-section">Skills_</h1>
-            <div class="content" data-aos="fade-in" data-aos-duration="1000" data-aos-easing="ease-in-out">
+            <div class="content" data-aos="fade-in" data-aos-duration="500" data-aos-easing="ease-in-out">
                 <p class="skill-description">
                     From the time I started my career as a Java developer in 2013, I've developed many user facing web applications and enterprise grade application. <br>The main area of my expertise is both back end and front end development. Experimenting with various ever evolving front end technologies by building small and medium application
                     and constantly improving my coding skills by solving one problem at a time.
@@ -92,7 +98,7 @@
                 </header>
                 <div class="card-content">
                     <div class="columns">
-                        <div class="column skill-item" data-aos="fade-in" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                        <div class="column skill-item" data-aos="fade-in" data-aos-delay="50" data-aos-duration="500" data-aos-easing="ease-in-out">
                             <figure class="image is-64x64">
                                 <img src="./images/skills/java.png" alt="java">
                             </figure>
@@ -100,7 +106,7 @@
                                 Java
                             </div>
                         </div>
-                        <div class="column skill-item" data-aos="fade-in" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                        <div class="column skill-item" data-aos="fade-in" data-aos-delay="50" data-aos-duration="500" data-aos-easing="ease-in-out">
                             <figure class="image is-64x64">
                                 <img src="./images/skills/groovy.jpg" alt="groovy">
                             </figure>
@@ -108,7 +114,7 @@
                                 Groovy
                             </div>
                         </div>
-                        <div class="column skill-item" data-aos="fade-in" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                        <div class="column skill-item" data-aos="fade-in" data-aos-delay="50" data-aos-duration="500" data-aos-easing="ease-in-out">
                             <figure class="image is-64x64">
                                 <img src="./images/skills/spring.png" alt="spring">
                             </figure>
@@ -116,7 +122,7 @@
                                 Spring
                             </div>
                         </div>
-                        <div class="column skill-item" data-aos="fade-in" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                        <div class="column skill-item" data-aos="fade-in" data-aos-delay="50" data-aos-duration="500" data-aos-easing="ease-in-out">
                             <figure class="image is-64x64">
                                 <img src="./images/skills/grails.png" alt="grails">
                             </figure>
@@ -124,7 +130,7 @@
                                 Grails
                             </div>
                         </div>
-                        <div class="column skill-item" data-aos="fade-in" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                        <div class="column skill-item" data-aos="fade-in" data-aos-delay="50" data-aos-duration="500" data-aos-easing="ease-in-out">
                             <figure class="image is-64x64">
                                 <img src="./images/skills/hibernate.png" alt="hibernate">
                             </figure>
@@ -132,7 +138,7 @@
                                 Hibernate
                             </div>
                         </div>
-                        <div class="column skill-item" data-aos="fade-in" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                        <div class="column skill-item" data-aos="fade-in" data-aos-delay="50" data-aos-duration="500" data-aos-easing="ease-in-out">
                             <figure class="image is-64x64">
                                 <img src="./images/skills/sql.png" alt="sql">
                             </figure>
@@ -140,7 +146,7 @@
                                 SQL
                             </div>
                         </div>
-                        <div class="column skill-item" data-aos="fade-in" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                        <div class="column skill-item" data-aos="fade-in" data-aos-delay="50" data-aos-duration="500" data-aos-easing="ease-in-out">
                             <figure class="image is-64x64">
                                 <img src="./images/skills/firebase.png" alt="firebase">
                             </figure>
@@ -169,7 +175,7 @@
                 <div class="card-content">
                     <div class="columns">
                         <div class="column skill-item">
-                            <figure class="image is-64x64" data-aos="fade-in" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                            <figure class="image is-64x64" data-aos="fade-in" data-aos-delay="50" data-aos-duration="500" data-aos-easing="ease-in-out">
                                 <img src="./images/skills/html.png" alt="html">
                             </figure>
                             <div class="skill-name">
@@ -177,14 +183,14 @@
                             </div>
                         </div>
                         <div class="column skill-item">
-                            <figure class="image is-64x64" data-aos="fade-in" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                            <figure class="image is-64x64" data-aos="fade-in" data-aos-delay="50" data-aos-duration="500" data-aos-easing="ease-in-out">
                                 <img src="./images/skills/css.png" alt="css">
                             </figure>
                             <div class="skill-name">
                                 CSS
                             </div>
                         </div>
-                        <div class="column skill-item" data-aos="fade-in" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                        <div class="column skill-item" data-aos="fade-in" data-aos-delay="50" data-aos-duration="500" data-aos-easing="ease-in-out">
                             <figure class="image is-64x64">
                                 <img src="./images/skills/js.png" alt="js">
                             </figure>
@@ -192,7 +198,7 @@
                                 Javascript
                             </div>
                         </div>
-                        <div class="column skill-item" data-aos="fade-in" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                        <div class="column skill-item" data-aos="fade-in" data-aos-delay="50" data-aos-duration="500" data-aos-easing="ease-in-out">
                             <figure class="image is-64x64">
                                 <img src="./images/skills/angular.png" alt="angular">
                             </figure>
@@ -200,7 +206,7 @@
                                 Angular (JS, 2-7)
                             </div>
                         </div>
-                        <div class="column skill-item" data-aos="fade-in" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                        <div class="column skill-item" data-aos="fade-in" data-aos-delay="50" data-aos-duration="500" data-aos-easing="ease-in-out">
                             <figure class="image is-64x64">
                                 <img src="./images/skills/jquery.png" alt="jquery">
                             </figure>
@@ -208,7 +214,7 @@
                                 Jquery
                             </div>
                         </div>
-                        <div class="column skill-item" data-aos="fade-in" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                        <div class="column skill-item" data-aos="fade-in" data-aos-delay="50" data-aos-duration="500" data-aos-easing="ease-in-out">
                             <figure class="image is-64x64">
                                 <img src="./images/skills/bootstrap.png" alt="bootstrap">
                             </figure>
@@ -216,7 +222,7 @@
                                 Bootstrap
                             </div>
                         </div>
-                        <div class="column skill-item" data-aos="fade-in" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                        <div class="column skill-item" data-aos="fade-in" data-aos-delay="50" data-aos-duration="500" data-aos-easing="ease-in-out">
                             <figure class="image is-64x64">
                                 <img src="./images/skills/bulma.png" alt="bulma">
                             </figure>
@@ -224,7 +230,7 @@
                                 Bulma
                             </div>
                         </div>
-                        <div class="column skill-item" data-aos="fade-in" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                        <div class="column skill-item" data-aos="fade-in" data-aos-delay="50" data-aos-duration="500" data-aos-easing="ease-in-out">
                             <figure class="image is-64x64">
                                 <img src="./images/skills/materialize.png" alt="materialize">
                             </figure>
@@ -247,7 +253,7 @@
                 </header>
                 <div class="card-content">
                     <div class="columns">
-                        <div class="column skill-item" data-aos="fade-in" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                        <div class="column skill-item" data-aos="fade-in" data-aos-delay="50" data-aos-duration="500" data-aos-easing="ease-in-out">
                             <figure class="image is-64x64">
                                 <img src="./images/skills/github.png" alt="github">
                             </figure>
@@ -255,7 +261,7 @@
                                 GitHub
                             </div>
                         </div>
-                        <div class="column skill-item" data-aos="fade-in" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                        <div class="column skill-item" data-aos="fade-in" data-aos-delay="50" data-aos-duration="500" data-aos-easing="ease-in-out">
                             <figure class="image is-64x64">
                                 <img src="./images/skills/tomcat.png" alt="tomcat">
                             </figure>
@@ -263,7 +269,7 @@
                                 Tomcat
                             </div>
                         </div>
-                        <div class="column skill-item" data-aos="fade-in" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                        <div class="column skill-item" data-aos="fade-in" data-aos-delay="50" data-aos-duration="500" data-aos-easing="ease-in-out">
                             <figure class="image is-64x64">
                                 <img src="./images/skills/oracle.png" alt="oracle">
                             </figure>
@@ -271,7 +277,7 @@
                                 Weblogic
                             </div>
                         </div>
-                        <div class="column skill-item" data-aos="fade-in" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                        <div class="column skill-item" data-aos="fade-in" data-aos-delay="50" data-aos-duration="500" data-aos-easing="ease-in-out">
                             <figure class="image is-64x64">
                                 <img src="./images/skills/netlify.png" alt="netlify">
                             </figure>
@@ -279,20 +285,19 @@
                                 Netlify
                             </div>
                         </div>
-                        <div class="column skill-item" data-aos="fade-in" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
-                            <div class="column skill-item" data-aos="fade-in" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
-                                <figure class="image is-64x64">
-                                    <img src="./images/skills/zeit.png" alt="zeit">
-                                </figure>
-                                <div>
-                                    Zeit Now
-                                </div>
+                        <div class="column skill-item" data-aos="fade-in" data-aos-delay="50" data-aos-duration="500" data-aos-easing="ease-in-out">
+                            <figure class="image is-64x64">
+                                <img src="./images/skills/zeit.png" alt="zeit">
+                            </figure>
+                            <div>
+                                Zeit Now
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
-            </div>
+        </div>
     </section>
 
     <hr class="hr is-marginless">
@@ -303,7 +308,7 @@
             <h1 class="title has-text-centered we-section">Work Experience_</h1>
             <div class="content">
                 <div class="timeline is-centered">
-                    <div class="timeline-item" data-aos="fade-in" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                    <div class="timeline-item" data-aos="fade-in" data-aos-delay="50" data-aos-duration="500" data-aos-easing="ease-in-out">
                         <div class="timeline-marker timeline-checkpoint is-icon">
                             <i class="far fa-building"></i>
                         </div>
@@ -315,28 +320,28 @@
                     <header class="timeline-header">
                         <span class="tag timeline-is-primary">2017</span>
                     </header>
-                    <div class="timeline-item" data-aos="fade-in" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                    <div class="timeline-item" data-aos="fade-in" data-aos-delay="50" data-aos-duration="500" data-aos-easing="ease-in-out">
                         <div class="timeline-marker timeline-checkpoint"></div>
                         <div class="timeline-content">
                             <p class="heading">November 2016</p>
                             <p>Promoted to Consultant at Capgemini</p>
                         </div>
                     </div>
-                    <div class="timeline-item" data-aos="fade-in" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                    <div class="timeline-item" data-aos="fade-in" data-aos-delay="50" data-aos-duration="500" data-aos-easing="ease-in-out">
                         <div class="timeline-marker timeline-checkpoint"></div>
                         <div class="timeline-content">
                             <p class="heading">January 2015</p>
                             <p>[Onsite] Software Developer at Betfair <br> Location: London, UK</p>
                         </div>
                     </div>
-                    <div class="timeline-item" data-aos="fade-in" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                    <div class="timeline-item" data-aos="fade-in" data-aos-delay="50" data-aos-duration="500" data-aos-easing="ease-in-out">
                         <div class="timeline-marker timeline-checkpoint"></div>
                         <div class="timeline-content">
                             <p class="heading">Febuary 2014</p>
                             <p>Promoted to Senior Software Developer at Capgemini</p>
                         </div>
                     </div>
-                    <div class="timeline-item" data-aos="fade-in" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                    <div class="timeline-item" data-aos="fade-in" data-aos-delay="50" data-aos-duration="500" data-aos-easing="ease-in-out">
                         <div class="timeline-marker timeline-checkpoint is-icon">
                             <i class="far fa-building"></i>
                         </div>
@@ -375,7 +380,7 @@
             <h1 class="title has-text-centered project-section">Personal Projects_</h1>
             <div class="columns">
                 <div class="column is-one-third">
-                    <div class="card" data-aos="fade-in" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                    <div class="card" data-aos="fade-in" data-aos-duration="500" data-aos-easing="ease-in-out">
                         <div class="card-image">
                             <figure class="image">
                                 <img src="./images/miniapp.png" alt="Placeholder image">
@@ -411,27 +416,27 @@
     <section class="section">
         <div class="container">
             <h1 class="title has-text-centered project-section">Contact_</h1>
-            <div class="content mail-form" data-aos="fade-in" data-aos-duration="1000" data-aos-easing="ease-in-out">
+            <div class="content mail-form" data-aos="fade-in" data-aos-duration="500" data-aos-easing="ease-in-out">
                 <div class="field">
                     <label class="label">Name</label>
                     <div class="control">
-                        <input class="input" type="text" placeholder="Name">
+                        <input class="input" type="text" placeholder="Name" id="from-name">
                     </div>
                 </div>
                 <div class="field">
                     <label class="label">Email</label>
                     <div class="control">
-                        <input class="input" type="email" placeholder="Email">
+                        <input class="input" type="email" placeholder="Email" id="from-email">
                     </div>
                 </div>
                 <div class="field">
                     <label class="label">Message</label>
                     <div class="control">
-                        <textarea class="textarea" placeholder="Your Message"></textarea>
+                        <textarea class="textarea" placeholder="Your Message" id="from-msg"></textarea>
                     </div>
                 </div>
                 <div class="mail-btn has-text-centered">
-                    <a class="button is-rounded is-medium">Submit</a>
+                    <a class="button is-rounded is-medium" id="send-email">Submit</a>
                 </div>
             </div>
         </div>
@@ -463,10 +468,18 @@
             </div>
         </div>
     </footer>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
 
-</body>
-</html>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
+    <script>
+        (function(){
+            emailjs.init("user_WriXj3cJ7oIStEe2mv1oh");
+            AOS.init();
+        })();
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+</body></html>

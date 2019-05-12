@@ -9,7 +9,7 @@ a {
 }
 
 .button {
-	font-family: "Montserrat", "Quicksand", sans-serif;
+    font-family: "Montserrat", "Quicksand", sans-serif;
     letter-spacing: 0.15rem;
     text-transform: uppercase;
     font-size: 0.875rem !important;
@@ -22,7 +22,8 @@ a {
 }
 
 .button:hover {
-	color: #ff470f;
+    color: #ff470f;
+    transform: scale(1.02) translateY(-4px);
 }
 
 a.icon {
@@ -66,7 +67,7 @@ a.icon:hover {
 }
 
 .wallpaper:before {
-    background: linear-gradient(to right, rgba(44, 62, 80, 0.75) 55%,hsla(204, 8%, 76%, 0.95));
+    background: linear-gradient(to bottom right, rgba(44, 62, 80, 0.75) 50%, hsla(204, 8%, 76%, 0.95));
     height: 100%;
     left: 0;
     right: 0;
@@ -89,7 +90,7 @@ a.icon:hover {
 }
 
 .learn-more {
-	margin-top: 1.0rem;
+    margin-top: 1.0rem;
 }
 
 .learn-more .button {
@@ -97,8 +98,52 @@ a.icon:hover {
 }
 
 .social {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    opacity: 1;
+    transition-property: opacity, transform;
+    will-change: opacity, transform;
+}
+
+#scroll-top-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff470f;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s,
+        opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+}
+
+#scroll-top-btn svg {
+    font-size: 1.6rem;
+    line-height: 5rem;
+    margin-bottom: 0.5rem;
+    color: #FFFFFF;
+}
+
+
+#scroll-top-btn:hover {
+    cursor: pointer;
+    background-color: #bdc3c7;
+}
+
+
+
+#scroll-top-btn.show {
+    opacity: 1;
+    visibility: visible;
 }
 
 /** About Me & Skill */
@@ -123,17 +168,18 @@ a.icon:hover {
 }
 
 .skill-name {
-     font-family: "Montserrat", "Quicksand", sans-serif;
+    font-family: "Montserrat", "Quicksand", sans-serif;
 }
 
-.footer-items{
+.footer-items {
     padding: .75rem;
 }
 
+
 /** Timeline */
 .timeline-is-primary {
-   background-color: #ff470f !important;
-   color: #fff !important;
+    background-color: #ff470f !important;
+    color: #fff !important;
 }
 
 .timeline-checkpoint {
@@ -153,11 +199,11 @@ a.icon:hover {
 .button.is-social.linkedin-in {
     margin: 1rem 1rem;
     background-color: #0077b5;
-    color:#fff;
+    color: #fff;
 }
 
 .button.is-social.github-in {
     margin: 1rem 1rem;
     background-color: #333;
-    color:#fff;
+    color: #fff;
 }
