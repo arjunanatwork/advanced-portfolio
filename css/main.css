@@ -34,7 +34,7 @@ a.icon:hover {
     color: #ff470f;
 }
 
-.hr{
+.hr {
     background-color: #dbdbdb;
     border: none;
     content: "";
@@ -42,6 +42,17 @@ a.icon:hover {
     margin-bottom: 1.5rem;
     margin-top: 1.5rem;
     width: 100%;
+}
+
+
+.welcome-msg,
+.abt-section,
+.skill-section,
+.we-section,
+.project-section {
+    color: #ff470f;
+    font-weight: bold;
+    font-family: "Quicksand", sans-serif;
 }
 
 /* Specific */
@@ -64,15 +75,6 @@ a.icon:hover {
     z-index: 0;
 }
 
-.welcome-msg,
-.abt-section,
-.skill-section,
-.we-section,
-.project-section {
-    color: #ff470f;
-    font-weight: bold;
-    font-family: "Quicksand", sans-serif;
-}
 
 .name {
     font-family: "Quicksand", sans-serif;
