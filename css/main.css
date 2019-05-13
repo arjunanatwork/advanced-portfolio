@@ -97,14 +97,19 @@ a.icon:hover {
     color: #ff470f;
 }
 
-.social {
+.social,
+.social-footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 5rem;
+    height: 6rem;
     opacity: 1;
     transition-property: opacity, transform;
     will-change: opacity, transform;
+}
+
+.social-footer {
+	height: 10rem;
 }
 
 #scroll-top-btn {
@@ -133,13 +138,10 @@ a.icon:hover {
     color: #FFFFFF;
 }
 
-
 #scroll-top-btn:hover {
     cursor: pointer;
     background-color: #bdc3c7;
 }
-
-
 
 #scroll-top-btn.show {
     opacity: 1;
