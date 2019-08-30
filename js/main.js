@@ -40,6 +40,6 @@ $(document).ready(function () {
             $('#from-email').val('');
             $('#from-msg').val('');
         }
-    })
+    });
 
 });
