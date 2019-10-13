@@ -1,5 +1,10 @@
 $(document).ready(function () {
 
+    var welcomeText = new Typed('#welcome-msg-typed', {
+        strings: ["Hello World_"],
+        typeSpeed: 60
+    });
+
     $('#learn-more').click(function () {
         $('html, body').animate({
             scrollTop: $('#abt-section').offset().top
