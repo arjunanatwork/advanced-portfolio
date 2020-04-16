@@ -1,211 +1,210 @@
 html {
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
 
 a {
-    cursor: pointer;
-    text-decoration: none;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .button {
-    font-family: "Montserrat", "Quicksand", sans-serif;
-    letter-spacing: 0.15rem;
-    text-transform: uppercase;
-    font-size: 0.875rem !important;
-    line-height: 1.5;
-    padding: 1.5em 2em;
-    text-shadow: none;
-    user-select: none;
-    vertical-align: top;
-    white-space: nowrap;
+  font-family: "Montserrat", "Quicksand", sans-serif;
+  letter-spacing: 0.15rem;
+  text-transform: uppercase;
+  font-size: 0.875rem !important;
+  line-height: 1.5;
+  padding: 1.5em 2em;
+  text-shadow: none;
+  user-select: none;
+  vertical-align: top;
+  white-space: nowrap;
 }
 
 .button:hover {
-    color: #ff470f;
-    transform: scale(1.02) translateY(-4px);
+  color: #ff470f;
+  transform: scale(1.02) translateY(-4px);
 }
 
 a.icon {
-    color: #fff;
-    margin: 0rem 1rem;
+  color: #fff;
+  margin: 0rem 1rem;
 }
 
 a.icon:hover {
-    color: #ff470f;
+  color: #ff470f;
 }
 
 .hr {
-    background-color: #dbdbdb;
-    border: none;
-    content: "";
-    height: 1px;
-    margin-bottom: 1.5rem;
-    margin-top: 1.5rem;
-    width: 100%;
+  background-color: #dbdbdb;
+  border: none;
+  content: "";
+  height: 1px;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+  width: 100%;
 }
-
 
 .welcome-msg,
 .abt-section,
 .skill-section,
 .we-section,
 .project-section {
-    color: #ff470f;
-    font-weight: bold;
-    font-family: "Quicksand", sans-serif;
+  color: #ff470f;
+  font-weight: bold;
+  font-family: "Quicksand", sans-serif;
 }
 
 /* Specific */
 .wallpaper {
-    background-color: #bdc3c7;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-position: 50%;
-    background-size: cover;
-    position: relative;
+  background-color: #bdc3c7;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  position: relative;
 }
 
 .wallpaper:before {
-    background: linear-gradient(to bottom right, rgba(44, 62, 80, 0.75) 50%, hsla(204, 8%, 76%, 0.95));
-    height: 100%;
-    left: 0;
-    right: 0;
-    position: absolute;
-    content: "";
-    z-index: 0;
+  background: linear-gradient(
+    to bottom right,
+    rgba(0, 0, 0, 0.65) 50%,
+    hsla(0, 0%, 0%, 0.95)
+  );
+  height: 100%;
+  left: 0;
+  right: 0;
+  position: absolute;
+  content: "";
+  z-index: 0;
 }
 
-
 .name {
-    font-family: "Quicksand", sans-serif;
-    margin-bottom: 0.6rem !important;
+  font-family: "Quicksand", sans-serif;
+  margin-bottom: 0.6rem !important;
 }
 
 .job {
-    font-family: "Montserrat", "Quicksand", sans-serif;
-    letter-spacing: 0.3rem;
-    text-transform: uppercase;
-    color: #ffe479;
+  font-family: "Montserrat", "Quicksand", sans-serif;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+  color: #ffe479;
 }
 
 .learn-more {
-    margin-top: 1.0rem;
+  margin-top: 1rem;
 }
 
 .learn-more .button {
-    color: #ff470f;
+  color: #ff470f;
 }
 
 .social,
 .social-footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 6rem;
-    opacity: 1;
-    transition-property: opacity, transform;
-    will-change: opacity, transform;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 6rem;
+  opacity: 1;
+  transition-property: opacity, transform;
+  will-change: opacity, transform;
 }
 
 .social-footer {
-	height: 10rem;
+  height: 10rem;
 }
 
 #scroll-top-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #ff470f;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    border-radius: 4px;
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    transition: background-color .3s,
-        opacity .5s, visibility .5s;
-    opacity: 0;
-    visibility: hidden;
-    z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff470f;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
 }
 
 #scroll-top-btn svg {
-    font-size: 1.6rem;
-    line-height: 5rem;
-    margin-bottom: 0.5rem;
-    color: #FFFFFF;
+  font-size: 1.6rem;
+  line-height: 5rem;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
 }
 
 #scroll-top-btn:hover {
-    cursor: pointer;
-    background-color: #bdc3c7;
+  cursor: pointer;
+  background-color: #bdc3c7;
 }
 
 #scroll-top-btn.show {
-    opacity: 1;
-    visibility: visible;
+  opacity: 1;
+  visibility: visible;
 }
 
 /** About Me & Skill */
 
 .abt-description,
 .skill-description {
-    font-family: "Montserrat", "Quicksand", sans-serif;
-    font-size: 1.15rem;
+  font-family: "Montserrat", "Quicksand", sans-serif;
+  font-size: 1.15rem;
 }
 
 .resume-btn .button,
 .mail-btn .button {
-    margin-top: 1rem;
-    color: #fff;
-    background-color: #ff470f;
+  margin-top: 1rem;
+  color: #fff;
+  background-color: #ff470f;
 }
 
 .skill-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .skill-name {
-    font-family: "Montserrat", "Quicksand", sans-serif;
+  font-family: "Montserrat", "Quicksand", sans-serif;
 }
 
 .footer-items {
-    padding: .75rem;
+  padding: 0.75rem;
 }
-
 
 /** Timeline */
 .timeline-is-primary {
-    background-color: #ff470f !important;
-    color: #fff !important;
+  background-color: #ff470f !important;
+  color: #fff !important;
 }
 
 .timeline-checkpoint {
-    background-color: chocolate !important;
-    color: #fff !important;
+  background-color: chocolate !important;
+  color: #fff !important;
 }
 
 /** Mail **/
 
 .mail-form {
-    max-width: 640px;
-    margin: 40px auto;
+  max-width: 640px;
+  margin: 40px auto;
 }
-
 
 /** Footer **/
 .button.is-social.linkedin-in {
-    margin: 1rem 1rem;
-    background-color: #0077b5;
-    color: #fff;
+  margin: 1rem 1rem;
+  background-color: #0077b5;
+  color: #fff;
 }
 
 .button.is-social.github-in {
-    margin: 1rem 1rem;
-    background-color: #333;
-    color: #fff;
+  margin: 1rem 1rem;
+  background-color: #333;
+  color: #fff;
 }
